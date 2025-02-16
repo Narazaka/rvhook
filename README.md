@@ -8,7 +8,7 @@ rpgvxaceのプロジェクトを作成後、次の作業を行ってください
 * Game.exeを_Game.exeにリネームする
 * Game.iniを_Game.iniにリネームする
 * rvhookのGame.exeを、作成したプロジェクトのフォルダにコピーする
-* hook.batというファイルを、作成したプロジェクトのフォルダに作成する
+* hook_preboot.bat及びhook_postboot.batというファイルを、作成したプロジェクトのフォルダに作成する
 
 ## 挙動
 1. rpgvxaceのエディタからゲームを実行しようとするとrvhookのGame.exeが起動します
@@ -17,5 +17,6 @@ rpgvxaceのプロジェクトを作成後、次の作業を行ってください
 3. rvhookのGame.exeは、_Game.exe(本来のGame.exe)を実行します
 
 # 更新履歴
+* 2.0.0	修正
 * 1.0.0	最初のバージョン
 
